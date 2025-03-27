@@ -1,0 +1,11 @@
+CREATE DATABASE restaurante;
+USE restaurante;
+
+CREATE TABLE reservaciones (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    contacto VARCHAR(15) NOT NULL,
+    cantidad_personas INT NOT NULL,
+    fecha DATE NOT NULL,
+    hora TIME NOT NULL
+);
